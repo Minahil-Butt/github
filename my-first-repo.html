@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Welcome FGHP</title>
+    <style>
+       body {
+      margin: 0;
+      height: 100vh;
+      background: linear-gradient(135deg, #00c997, #ff7f50);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      overflow: hidden;
+    }
+
+    h1 {
+      font-family: 'Orbitron', sans-serif;
+      font-size: 4rem;
+      letter-spacing: 0.3rem;
+      color: white;
+      text-shadow: 0 0 15px rgba(255, 255, 255, 0.3);
+      opacity: 0;
+      transform: scale(0.2);
+      animation: smothzoom 2s ease-out forwards;
+    }
+
+    @keyframes smothzoom {
+      0% {
+        opacity: 0;
+        transform: scale(0.2);
+        letter-spacing: 2rem;
+        text-shadow: 0 0 60px rgba(255, 255, 255, 0.6);
+      }
+      50%{
+        opacity: 0.7;
+        transform: scale(1.1);
+      }
+      100% {
+        opacity: 1;
+        transform: scale(1);
+        letter-spacing: 0.3rem;
+        text-shadow: 0 0 15px rgba(255, 255, 255, 0.3);
+      }
+    }
+    </style>
+</head>
+<body>
+    <h1>HELLO GITHUB</h1>
+</body>
+</html>
